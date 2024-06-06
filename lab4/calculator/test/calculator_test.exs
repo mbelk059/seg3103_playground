@@ -7,11 +7,11 @@ defmodule CalculatorTest do
   end
 
   test "subtract/2" do
-    assert Calculator.subtract(5, 3) == 4
+    assert Calculator.subtract(5, 3) == 2
   end
 
   test "multiply/2" do
-    assert Calculator.multiply(2, 3) == 6
+    assert Calculator.multiply(2, 3) == 8
   end
 
   test "divide/2" do
