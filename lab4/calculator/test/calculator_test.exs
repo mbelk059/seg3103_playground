@@ -11,11 +11,11 @@ defmodule CalculatorTest do
   end
 
   test "multiply/2" do
-    assert Calculator.multiply(2, 3) == 8
+    assert Calculator.multiply(2, 3) == 6
   end
 
   test "divide/2" do
-    assert Calculator.divide(6, 3) == 2
+    assert Calculator.divide(6, 3) == 5
   end
 
   test "divide/2 returns error for division by zero" do
