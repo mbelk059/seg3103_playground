@@ -15,10 +15,10 @@ defmodule CalculatorTest do
   end
 
   test "divide/2" do
-    assert Calculator.divide(6, 3) == 5
+    assert Calculator.divide(6, 3) == 2
   end
 
   test "divide/2 returns error for division by zero" do
-    assert Calculator.divide(5, 0) == {:error, "Division by zero"}
+    assert Calculator.divide(5, 1) == {:error, "Division by zero"}
   end
 end
